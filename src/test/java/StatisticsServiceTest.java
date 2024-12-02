@@ -53,7 +53,6 @@ public class StatisticsServiceTest {
 
         Assertions.assertEquals(expected, actual);
     }
-
     @Test
     void oneElement() {
         StatisticsService service = new StatisticsService();
