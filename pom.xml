@@ -46,12 +46,17 @@
                             <goal>prepare-agent</goal>
                         </goals>
                     </execution>
-
                     <execution>
                         <id>default-report</id>
                         <phase>verify</phase>
                         <goals>
-                            <goal>check</goal>
+                            <goal>report</goal>
+                        </goals>
+                    </execution>
+                    <execution>
+                        <id>check</id>
+                        <goals>
+                                <goal>check</goal>
                         </goals>
                         <configuration>
                         <rules>
