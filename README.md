@@ -1,6 +1,7 @@
 Перед вами код сервисного класса:
 
-```package ru.netology.statistic;
+````
+package ru.netology.statistic;
 
 public class StatisticsService {
     public long findMax(long[] incomes) {
@@ -12,9 +13,12 @@ public class StatisticsService {
         }
         return currentMax;
     }
-}```
+}
+````
+
 И код тест-класса, который его тестирует:
 
+````
 package ru.netology.statistic;
 
 import org.junit.jupiter.api.Test;
@@ -23,7 +27,7 @@ import org.junit.jupiter.api.Assertions;
 
 public class StatisticsServiceTest {
 
-  @Test
+@Test
   void findMax() {
     StatisticsService service = new StatisticsService();
 
@@ -35,6 +39,8 @@ public class StatisticsServiceTest {
     Assertions.assertEquals(expected, actual);
   }
 }
+````
+
 Ваша задача состоит в том, чтобы:
 
 создать Maven-проект и поместить в него эти два класса;
