@@ -1,6 +1,6 @@
 Перед вами код сервисного класса:
 
-package ru.netology.statistic;
+```package ru.netology.statistic;
 
 public class StatisticsService {
     public long findMax(long[] incomes) {
@@ -12,7 +12,7 @@ public class StatisticsService {
         }
         return currentMax;
     }
-}
+}```
 И код тест-класса, который его тестирует:
 
 package ru.netology.statistic;
